@@ -49,12 +49,13 @@ class Template extends React.Component {
               ...scale(1.5),
               marginBottom: rhythm(1.5),
               marginTop: 20,
+              textDecoration: 'underline'
             }}
           >
             <Link
               style={{
                 boxShadow: 'none',
-                textDecoration: 'none',
+                // textDecoration: 'none',
                 color: 'inherit',
                 fontSize: 55
               }}
