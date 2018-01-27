@@ -61,7 +61,8 @@ class Template extends React.Component {
               }}
               to={'/'}
             >
-              Close Enough
+              <span style={{ color: '#853dbbff' }} >Close</span>
+              <span style={{ color: '#dd3649ff' }}>Enough</span> 
             </Link>
           </h1>
           <ul style={{marginBottom: 30}} >
