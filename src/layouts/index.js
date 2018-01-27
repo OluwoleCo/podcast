@@ -61,7 +61,7 @@ class Template extends React.Component {
               }}
               to={'/'}
             >
-              Some of All
+              Close Enough
             </Link>
           </h1>
           <ul style={{marginBottom: 30}} >
