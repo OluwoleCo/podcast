@@ -57,12 +57,13 @@ class Template extends React.Component {
                 boxShadow: 'none',
                 // textDecoration: 'none',
                 color: 'inherit',
-                fontSize: 55
+                fontSize: 33
               }}
               to={'/'}
             >
-              <span style={{ color: '#853dbbff' }} >Close</span>
-              <span style={{ color: '#dd3649ff' }}>Enough</span> 
+              <span style={{ color: '#853dbbff' }} >Recursive  </span>
+              <span style={{ color: '#feb836ff' }}> Alpha</span> <br/>
+              {/* <span style={{ color: '#feb836ff', fontSize: 20 }}> Show</span>  */}
             </Link>
           </h1>
           <ul style={{marginBottom: 30}} >
@@ -88,7 +89,7 @@ class Template extends React.Component {
  
     return (
       
-      <div style={{ backgroundColor: '#F8F9FB' }}>
+      <div >
         <Container
           style={{
             maxWidth: rhythm(80),
